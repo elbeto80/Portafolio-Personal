@@ -9,6 +9,7 @@ const projectImages = {
   1: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
   2: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
   3: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+  4: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
 };
 
 export default function Projects() {
@@ -26,7 +27,7 @@ export default function Projects() {
           {t("projects.title")}
         </h2>
         <div className="grid gap-6 md:grid-cols-3">
-          {[1, 2, 3].map((i) => (
+          {[1, 2, 3, 4].map((i) => (
             <Card key={i} className="overflow-hidden">
               <div className="relative h-48">
                 <Image

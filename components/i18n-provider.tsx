@@ -55,6 +55,12 @@ const resources = {
               "Aplicación móvil para gestión de tareas y productividad.",
             technologies: "React Native,Firebase",
           },
+          "4": {
+            title: "Mobile App",
+            description:
+              "Aplicación móvil para gestión de tareas y productividad.",
+            technologies: "React Native,Firebase",
+          },
         },
       },
       skills: {
@@ -141,6 +147,12 @@ const resources = {
             technologies: "Vue.js,Express,MongoDB",
           },
           "3": {
+            title: "Mobile App",
+            description:
+              "Mobile application for task management and productivity.",
+            technologies: "React Native,Firebase",
+          },
+          "4": {
             title: "Mobile App",
             description:
               "Mobile application for task management and productivity.",

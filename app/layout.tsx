@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Alberto Alvarez - Full Stack Developer",
   description:
     "Portfolio de Alberto Alvarez - Desarrollador Full Stack con 8 años de experiencia",
+  icons: {
+    icon: "./public/favicon.ico",
+  },
 };
 
 export default function RootLayout({
