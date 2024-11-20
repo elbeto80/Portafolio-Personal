@@ -23,7 +23,6 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <I18nProvider>{children}</I18nProvider>
-
           <Footer />
         </ThemeProvider>
       </body>

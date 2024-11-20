@@ -22,12 +22,20 @@ export default function Contact() {
         </p>
         <div className="flex justify-center gap-4">
           <Button variant="outline" size="icon" asChild>
-            <a href="https://linkedin.com/in/alberto-alvarez" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://linkedin.com/in/alberto-alvarez"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Linkedin className="h-4 w-4" />
             </a>
           </Button>
           <Button variant="outline" size="icon" asChild>
-            <a href="https://github.com/alberto-alvarez" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/alberto-alvarez"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Github className="h-4 w-4" />
             </a>
           </Button>

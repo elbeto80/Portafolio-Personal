@@ -8,7 +8,7 @@ export default function LanguageSelector() {
   const { i18n } = useTranslation();
 
   const toggleLanguage = () => {
-    const newLang = i18n.language === "es" ? "en" : "es";
+    const newLang = i18n.language == "es" ? "en" : "es";
     i18n.changeLanguage(newLang);
   };
 

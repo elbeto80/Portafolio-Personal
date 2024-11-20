@@ -16,7 +16,7 @@ export default function Header() {
   };
 
   return (
-    <motion.nav 
+    <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className="fixed w-full top-0 z-50 bg-background/80 backdrop-blur-sm border-b"
