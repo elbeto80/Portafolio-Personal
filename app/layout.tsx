@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "Portfolio de Alberto Alvarez - Desarrollador Full Stack con 8 años de experiencia",
   icons: {
-    icon: "./public/favicon.ico",
+    icon: "/favicon.ico",
   },
 };
 
