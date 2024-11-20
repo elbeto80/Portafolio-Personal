@@ -19,7 +19,7 @@ export default function Experience() {
           {t("experience.title")}
         </h2>
         <div className="relative max-w-3xl mx-auto">
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-border" />
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-border" />
           {[1, 2, 3].map((i) => (
             <motion.div
               key={i}
@@ -28,15 +28,11 @@ export default function Experience() {
               transition={{ delay: i * 0.2 }}
               className="relative mb-8"
             >
-              <div
-                className={`flex items-center ${
-                  i % 2 === 0 ? "flex-row-reverse" : ""
-                }`}
-              >
-                <div className="w-5 h-5 absolute left-1/2 -translate-x-1/2 rounded-full bg-primary" />
+              <div className="flex flex-col md:flex-row items-center md:items-start">
+                <div className="hidden md:block w-5 h-5 absolute left-1/2 -translate-x-1/2 rounded-full bg-primary" />
                 <Card
-                  className={`w-[calc(50%-2rem)] p-6 ${
-                    i % 2 === 0 ? "ml-auto" : "mr-auto"
+                  className={`w-full md:w-[calc(50%-2rem)] p-6 ${
+                    i % 2 === 0 ? "md:ml-auto" : "md:mr-auto"
                   }`}
                 >
                   <h3 className="text-xl font-semibold">

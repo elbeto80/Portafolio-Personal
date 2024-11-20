@@ -16,6 +16,9 @@ export default function About() {
           transition={{ duration: 0.5 }}
           className="flex-1 text-center md:text-right space-y-4"
         >
+          <span className="text-2xl font-bold md:hidden">
+            {"<Alberto Alvarez />"}
+          </span>
           <h2 className="text-4xl font-bold">{t("about.title")}</h2>
           <p className="text-lg text-muted-foreground">
             {t("about.description")}
