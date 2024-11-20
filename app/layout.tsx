@@ -21,11 +21,13 @@ export default function RootLayout({
   return (
     <html lang="es" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Header />
-          <I18nProvider>{children}</I18nProvider>
-          <Footer />
-        </ThemeProvider>
+        <div className="overflow-y-scroll h-screen">
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            <Header />
+            <I18nProvider>{children}</I18nProvider>
+            <Footer />
+          </ThemeProvider>
+        </div>
       </body>
     </html>
   );

@@ -90,6 +90,11 @@ const resources = {
       footer: {
         text: "Todos los derechos reservados.",
       },
+      theme: {
+        light: "Claro",
+        dark: "Oscuro",
+        system: "Sistema",
+      },
     },
   },
   en: {
@@ -175,6 +180,11 @@ const resources = {
       },
       footer: {
         text: "All rights reserved.",
+      },
+      theme: {
+        light: "Light",
+        dark: "Dark",
+        system: "System",
       },
     },
   },

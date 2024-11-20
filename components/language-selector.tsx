@@ -19,7 +19,7 @@ export default function LanguageSelector() {
       onClick={toggleLanguage}
       className="w-10 h-10 p-0 overflow-hidden"
     >
-      {i18n.language != "es" ? (
+      {i18n.language == "es" ? (
         <Image
           src="https://flagcdn.com/es.svg"
           alt="Español"

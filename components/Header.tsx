@@ -8,6 +8,7 @@ import { useTranslation } from "react-i18next";
 
 import { Github, Linkedin } from "lucide-react";
 import { useState } from "react";
+import ThemeSelector from "@/components/theme-selector";
 
 const navItems = ["about", "experience", "projects", "skills", "contact"];
 
@@ -75,7 +76,7 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Linkedin className="h-4 w-4" />
+              <Linkedin className="h-5 w-5" />
             </a>
           </Button>
 
@@ -85,15 +86,17 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Github className="h-4 w-4" />
+              <Github className="h-5 w-5" />
             </a>
           </Button>
 
           <Button variant="ghost" size="icon">
             <a href="/cv-alberto-alvarez.pdf" download>
-              <Download className="h-4 w-4" />
+              <Download className="h-5 w-5" />
             </a>
           </Button>
+
+          <ThemeSelector />
         </div>
       </div>
     </motion.nav>
