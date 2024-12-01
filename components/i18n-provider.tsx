@@ -9,8 +9,11 @@ const resources = {
     translation: {
       about: {
         title: "Desarrollador Full Stack",
-        description:
-          "Con 8 años de experiencia en el desarrollo de aplicaciones web y móviles. Especializado en crear soluciones escalables y mantenibles utilizando las últimas tecnologías.",
+        description1: "¡Hola! Soy Alberto. Encantado de conocerte.",
+        description2:
+          "Soy desarrollador de software con más de 10 años de experiencia, incluidos 7 años en desarrollo web, trabajando en proyectos que van desde aplicaciones web hasta soluciones móviles, con un enfoque en crear sistemas escalables y adaptados a las necesidades específicas de cada cliente.",
+        description3:
+          "Apasionado por el aprendizaje continuo y la innovación tecnológica, disfruto transformar ideas en experiencias funcionales y eficientes. Resolver desafíos complejos es mi motivación, aplicando mis habilidades para desarrollar soluciones con impacto real.",
       },
       experience: {
         title: "Experiencia",
@@ -118,8 +121,11 @@ const resources = {
     translation: {
       about: {
         title: "Full Stack Developer",
-        description:
-          "With 8 years of experience in web and mobile application development. Specialized in creating scalable and maintainable solutions using the latest technologies.",
+        description1: "Hello! I'm Alberto. Nice to meet you.",
+        description2:
+          "I'm a software developer with over 10 years of experience, including 7 years in web development, working on projects ranging from web applications to mobile solutions, with a focus on creating scalable and tailored systems to meet the specific needs of each client.",
+        description3:
+          "Passionate about continuous learning and technological innovation, I enjoy transforming ideas into functional and efficient experiences. Solving complex challenges is my motivation, applying my skills to develop impactful solutions.",
       },
       experience: {
         title: "Experience",

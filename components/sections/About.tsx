@@ -8,7 +8,7 @@ export default function About() {
   const { t } = useTranslation();
 
   return (
-    <section id="about" className="container mx-auto px-4 pt-24">
+    <section id="about" className="container mx-auto px-4 pt-24 mb-6">
       <div className="flex flex-col md:flex-row items-center gap-8">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
@@ -19,9 +19,17 @@ export default function About() {
           <span className="text-xl font-bold md:hidden">
             {"<Alberto Alvarez />"}
           </span>
-          <h2 className="text-4xl font-bold">{t("about.title")}</h2>
           <p className="text-lg text-muted-foreground">
-            {t("about.description")}
+            {t("about.description1")}
+          </p>
+          <h2 className="text-4xl font-bold">{t("about.title")}</h2>
+
+          <p className="text-lg text-muted-foreground">
+            {t("about.description2")}
+          </p>
+
+          <p className="text-lg text-muted-foreground">
+            {t("about.description3")}
           </p>
         </motion.div>
 
