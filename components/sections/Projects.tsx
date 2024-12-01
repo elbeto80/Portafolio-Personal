@@ -50,9 +50,9 @@ export default function Projects() {
                     .map((tech) => (
                       <span
                         key={tech}
-                        className="bg-primary/10 px-2 py-1 rounded-md text-sm"
+                        className="bg-orange-500/90 px-2 py-1 rounded-md text-sm"
                       >
-                        {tech}
+                        <small className="text-xs text-white">{tech}</small>
                       </span>
                     ))}
                 </div>
