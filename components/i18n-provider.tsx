@@ -85,6 +85,17 @@ const resources = {
       contact: {
         title: "Contacto",
         description: "¿Interesado en trabajar juntos? ¡Contáctame!",
+        form: {
+          name: "Tu Nombre",
+          email: "Tu Email",
+          subject: "Asunto",
+          message: "Tu Mensaje",
+          send: "Enviar Mensaje",
+          contactInfo: "Información de Contacto",
+          socialProfiles: "Perfiles Sociales",
+          location: "Madrid, España",
+          phone: "+34 123 456 789",
+        },
       },
       nav: {
         about: "Sobre mí",
@@ -182,6 +193,17 @@ const resources = {
       contact: {
         title: "Contact",
         description: "Interested in working together? Get in touch!",
+        form: {
+          name: "Your Name",
+          email: "Your Email",
+          subject: "Subject",
+          message: "Your Message",
+          send: "Send Message",
+          contactInfo: "Contact Information",
+          socialProfiles: "Social Profiles",
+          location: "Madrid, Spain",
+          phone: "+34 123 456 789",
+        },
       },
       nav: {
         about: "About",

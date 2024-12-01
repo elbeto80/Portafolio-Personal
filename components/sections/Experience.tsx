@@ -18,6 +18,7 @@ export default function Experience() {
         <h2 className="text-3xl font-bold text-center">
           {t("experience.title")}
         </h2>
+
         <div className="relative max-w-3xl mx-auto">
           <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-border" />
           {[1, 2, 3].map((i) => (
@@ -29,10 +30,10 @@ export default function Experience() {
               className="relative mb-8"
             >
               <div className="flex flex-col md:flex-row items-center md:items-start">
-                <div className="hidden md:block w-5 h-5 absolute left-1/2 -translate-x-1/2 rounded-full bg-primary" />
+                <div className="hidden md:block w-5 h-5 absolute left-1/2 -translate-x-1/2 rounded-full bg-orange-500 dark:bg-orange-700" />
                 <Card
                   className={`w-full md:w-[calc(50%-2rem)] p-6 ${
-                    i % 2 === 0 ? "md:ml-auto" : "md:mr-auto"
+                    i % 2 == 0 ? "md:ml-auto" : "md:mr-auto"
                   }`}
                 >
                   <h3 className="text-xl font-semibold">

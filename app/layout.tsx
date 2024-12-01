@@ -26,9 +26,11 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="overflow-y-scroll h-screen">
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <Header />
-            <I18nProvider>{children}</I18nProvider>
-            <Footer />
+            <div className="w-full md:w-[80%] mx-auto">
+              <Header />
+              <I18nProvider>{children}</I18nProvider>
+              <Footer />
+            </div>
           </ThemeProvider>
         </div>
       </body>

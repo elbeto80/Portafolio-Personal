@@ -55,6 +55,8 @@ export default function Skills() {
                       </div>
                       <Progress
                         value={skillLevels[skill as keyof typeof skillLevels]}
+                        className="bg-gray-200 dark:bg-gray-700"
+                        progressClassName="bg-gradient-to-r from-orange-600 to-orange-300"
                       />
                     </div>
                   ))}
