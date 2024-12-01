@@ -21,7 +21,7 @@ export default function Contact() {
           {t("contact.description")}
         </p>
 
-        <div className="grid grid-cols-1 gap-8 mt-8 w-full md:w-[80%] mx-auto">
+        <div className="grid grid-cols-1 gap-8 mt-8 w-full md:w-[70%] mx-auto">
           <div className="bg-background p-6 rounded-lg shadow-md">
             <form className="space-y-4">
               <div>
@@ -91,8 +91,8 @@ export default function Contact() {
               <div className="space-y-3">
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 mr-3" />
-                  <a href="mailto:contact@alberto-alvarez.com">
-                    contact@alberto-alvarez.com
+                  <a href="mailto:contact@albertoalvarez.dev">
+                    contact@albertoalvarez.dev
                   </a>
                 </div>
                 <div className="flex items-center">
@@ -113,7 +113,7 @@ export default function Contact() {
               <div className="flex gap-4 justify-center">
                 <Button variant="outline" size="icon" asChild>
                   <a
-                    href="https://linkedin.com/in/alberto-alvarez"
+                    href="https://www.linkedin.com/in/alberto-alonso-alvarez-8416351a3/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

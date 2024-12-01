@@ -8,7 +8,7 @@ export default function Experience() {
   const { t } = useTranslation();
 
   return (
-    <section id="experience" className="container mx-auto px-4 py-16">
+    <section id="experience" className="container mx-auto px-4 py-6">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -19,7 +19,7 @@ export default function Experience() {
           {t("experience.title")}
         </h2>
 
-        <div className="relative max-w-3xl mx-auto">
+        <div className="relative max-w-4xl mx-auto">
           <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-border" />
           {[1, 2, 3].map((i) => (
             <motion.div
@@ -30,7 +30,7 @@ export default function Experience() {
               className="relative mb-8"
             >
               <div className="flex flex-col md:flex-row items-center md:items-start">
-                <div className="hidden md:block w-5 h-5 absolute left-1/2 -translate-x-1/2 rounded-full bg-orange-500 dark:bg-orange-700" />
+                <div className="hidden md:block w-5 h-5 absolute left-1/2 -translate-x-1/2 rounded-full bg-orange-500" />
                 <Card
                   className={`w-full md:w-[calc(50%-2rem)] p-6 ${
                     i % 2 == 0 ? "md:ml-auto" : "md:mr-auto"

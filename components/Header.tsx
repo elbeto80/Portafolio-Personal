@@ -48,9 +48,10 @@ export default function Header() {
                     scrollToSection(item);
                     setIsMenuOpen(false);
                   }}
-                  className="block w-full text-left px-4 py-2 text-sm font-medium hover:text-primary transition-colors"
+                  className="block w-full text-left px-4 py-2 text-sm font-medium hover:text-primary transition-colors relative group"
                 >
                   {t(`nav.${item}`)}
+                  <span className="absolute bottom-0 left-4 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-[calc(100%-2rem)]" />
                 </button>
               ))}
             </div>
@@ -61,9 +62,11 @@ export default function Header() {
             <button
               key={item}
               onClick={() => scrollToSection(item)}
-              className="text-sm font-medium hover:text-primary transition-colors"
+              className="text-sm font-medium hover:text-primary transition-colors relative group"
             >
               {t(`nav.${item}`)}
+
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-200 group-hover:w-full" />
             </button>
           ))}
         </div>
@@ -72,7 +75,7 @@ export default function Header() {
 
           <Button variant="ghost" size="icon" asChild>
             <a
-              href="https://linkedin.com/in/alberto-alvarez"
+              href="https://www.linkedin.com/in/alberto-alonso-alvarez-8416351a3/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -82,7 +85,7 @@ export default function Header() {
 
           <Button variant="ghost" size="icon" asChild>
             <a
-              href="https://github.com/alberto-alvarez"
+              href="https://github.com/elbeto80"
               target="_blank"
               rel="noopener noreferrer"
             >

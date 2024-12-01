@@ -93,8 +93,8 @@ const resources = {
           send: "Enviar Mensaje",
           contactInfo: "Información de Contacto",
           socialProfiles: "Perfiles Sociales",
-          location: "Madrid, España",
-          phone: "+34 123 456 789",
+          location: "Medellín, Colombia",
+          phone: "(+57) 317 855 52 09",
         },
       },
       nav: {
@@ -201,8 +201,8 @@ const resources = {
           send: "Send Message",
           contactInfo: "Contact Information",
           socialProfiles: "Social Profiles",
-          location: "Madrid, Spain",
-          phone: "+34 123 456 789",
+          location: "Medellín, Colombia",
+          phone: "(+57) 317 855 52 09",
         },
       },
       nav: {
