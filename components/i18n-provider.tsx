@@ -17,25 +17,6 @@ const resources = {
       },
       experience: {
         title: "Experiencia",
-        jobs: {
-          "1": {
-            title: "Senior Full Stack Developer",
-            period: "2020 - Presente",
-            description:
-              "Lideré equipos de desarrollo y arquitectura de soluciones empresariales.",
-          },
-          "2": {
-            title: "Full Stack Developer",
-            period: "2017 - 2020",
-            description: "Desarrollo de aplicaciones web y APIs RESTful.",
-          },
-          "3": {
-            title: "Frontend Developer",
-            period: "2015 - 2017",
-            description:
-              "Desarrollo de interfaces de usuario y experiencias interactivas.",
-          },
-        },
       },
       projects: {
         title: "Proyectos",
@@ -129,25 +110,6 @@ const resources = {
       },
       experience: {
         title: "Experience",
-        jobs: {
-          "1": {
-            title: "Senior Full Stack Developer",
-            period: "2020 - Present",
-            description:
-              "Led development teams and enterprise solution architecture.",
-          },
-          "2": {
-            title: "Full Stack Developer",
-            period: "2017 - 2020",
-            description: "Development of web applications and RESTful APIs.",
-          },
-          "3": {
-            title: "Frontend Developer",
-            period: "2015 - 2017",
-            description:
-              "Development of user interfaces and interactive experiences.",
-          },
-        },
       },
       projects: {
         title: "Projects",

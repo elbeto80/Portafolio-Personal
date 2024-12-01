@@ -19,9 +19,9 @@ export default function About() {
           <span className="text-xl font-bold md:hidden">
             {"<Alberto Alvarez />"}
           </span>
-          <p className="text-lg text-muted-foreground">
-            {t("about.description1")}
-          </p>
+
+          <p className="text-muted-foreground">{t("about.description1")}</p>
+
           <h2 className="text-4xl font-bold">{t("about.title")}</h2>
 
           <p className="text-lg text-muted-foreground">
