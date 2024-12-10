@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Phone, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { socialLinks } from "@/components/sections/data/social-links.js";
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -113,7 +114,7 @@ export default function Contact() {
               <div className="flex gap-4 justify-center">
                 <Button variant="outline" size="icon" asChild>
                   <a
-                    href="https://www.linkedin.com/in/alberto-alonso-alvarez-8416351a3/"
+                    href={socialLinks.linkedin.href}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -122,7 +123,7 @@ export default function Contact() {
                 </Button>
                 <Button variant="outline" size="icon" asChild>
                   <a
-                    href="https://github.com/elbeto80"
+                    href={socialLinks.github.href}
                     target="_blank"
                     rel="noopener noreferrer"
                   >

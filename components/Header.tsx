@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next";
 import { Github, Linkedin } from "lucide-react";
 import { useState } from "react";
 import ThemeSelector from "@/components/theme-selector";
+import { socialLinks } from "@/components/sections/data/social-links.js";
 
 const navItems = ["about", "experience", "projects", "skills", "contact"];
 
@@ -75,7 +76,7 @@ export default function Header() {
 
           <Button variant="ghost" size="icon" asChild>
             <a
-              href="https://www.linkedin.com/in/alberto-alonso-alvarez-8416351a3/"
+              href={socialLinks.linkedin.href}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -85,7 +86,7 @@ export default function Header() {
 
           <Button variant="ghost" size="icon" asChild>
             <a
-              href="https://github.com/elbeto80"
+              href={socialLinks.github.href}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -94,7 +95,7 @@ export default function Header() {
           </Button>
 
           <Button variant="ghost" size="icon">
-            <a href="/cv-alberto-alvarez.pdf" download>
+            <a href={socialLinks.downloadCV.href} target="_blank">
               <Download className="h-5 w-5" />
             </a>
           </Button>
