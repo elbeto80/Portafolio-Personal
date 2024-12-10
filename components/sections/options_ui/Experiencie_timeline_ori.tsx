@@ -30,34 +30,45 @@ export default function Experience() {
           {t("experience.title")}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="relative max-w-6xl mx-auto">
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-border" />
           {experience.map((info: ExperienceData, key: number) => (
             <motion.div
               key={info.company}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: key * 0.1 }}
+              transition={{ delay: key * 0.2 }}
+              className="relative mb-8"
             >
-              <Card className="h-full p-6 hover:shadow-lg transition-shadow">
-                <div className="border-l-4 border-orange-500 pl-4">
+              <div className="flex flex-col md:flex-row items-center md:items-start">
+                <div className="hidden md:block w-5 h-5 absolute left-1/2 -translate-x-1/2 rounded-full bg-orange-500" />
+                <Card
+                  className={`w-full md:w-[calc(50%-2rem)] p-6 ${
+                    key % 2 != 0 ? "md:ml-auto" : "md:mr-auto"
+                  }`}
+                >
                   <p className="text-sm text-muted-foreground font-semibold">
                     {info.company}
                   </p>
-                  <h3 className="text-xl font-semibold">{info.title}</h3>
-                  <p className="text-sm text-muted-foreground">{info.period}</p>
-                </div>
 
-                <ul className="mt-4 list-disc list-inside space-y-2">
-                  {info.description.map((description: string, key: number) => (
-                    <li
-                      key={key}
-                      className="text-sm text-muted-foreground ml-4"
-                    >
-                      {description}
-                    </li>
-                  ))}
-                </ul>
-              </Card>
+                  <h3 className="text-xl font-semibold">{info.title}</h3>
+
+                  <p className="text-sm text-muted-foreground">{info.period}</p>
+
+                  <ul className="mt-4 list-disc list-inside space-y-2">
+                    {info.description.map(
+                      (description: string, key: number) => (
+                        <li
+                          key={key}
+                          className="text-sm text-muted-foreground ml-4"
+                        >
+                          {description}
+                        </li>
+                      )
+                    )}
+                  </ul>
+                </Card>
+              </div>
             </motion.div>
           ))}
         </div>

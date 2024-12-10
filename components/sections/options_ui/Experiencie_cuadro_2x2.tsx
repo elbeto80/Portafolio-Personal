@@ -14,7 +14,6 @@ interface ExperienceData {
 
 export default function Experience() {
   const { t, i18n } = useTranslation();
-
   const experience: ExperienceData[] =
     i18n.language === "es" ? experience_es : experience_en;
 
@@ -30,15 +29,15 @@ export default function Experience() {
           {t("experience.title")}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-6xl mx-auto">
           {experience.map((info: ExperienceData, key: number) => (
             <motion.div
               key={info.company}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: key * 0.1 }}
+              transition={{ delay: key * 0.2 }}
             >
-              <Card className="h-full p-6 hover:shadow-lg transition-shadow">
+              <Card className="p-4 h-full">
                 <div className="border-l-4 border-orange-500 pl-4">
                   <p className="text-sm text-muted-foreground font-semibold">
                     {info.company}

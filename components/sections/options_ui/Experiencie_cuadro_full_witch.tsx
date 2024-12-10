@@ -30,33 +30,39 @@ export default function Experience() {
           {t("experience.title")}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <div className="max-w-5xl mx-auto space-y-6">
           {experience.map((info: ExperienceData, key: number) => (
             <motion.div
               key={info.company}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: key * 0.1 }}
+              transition={{ delay: key * 0.2 }}
             >
-              <Card className="h-full p-6 hover:shadow-lg transition-shadow">
-                <div className="border-l-4 border-orange-500 pl-4">
+              <Card className="p-6 relative overflow-hidden">
+                <div className="absolute left-0 top-0 bottom-0 w-1 bg-orange-500" />
+
+                <div className="pl-4">
                   <p className="text-sm text-muted-foreground font-semibold">
                     {info.company}
                   </p>
-                  <h3 className="text-xl font-semibold">{info.title}</h3>
-                  <p className="text-sm text-muted-foreground">{info.period}</p>
-                </div>
 
-                <ul className="mt-4 list-disc list-inside space-y-2">
-                  {info.description.map((description: string, key: number) => (
-                    <li
-                      key={key}
-                      className="text-sm text-muted-foreground ml-4"
-                    >
-                      {description}
-                    </li>
-                  ))}
-                </ul>
+                  <h3 className="text-xl font-semibold">{info.title}</h3>
+
+                  <p className="text-sm text-muted-foreground">{info.period}</p>
+
+                  <ul className="mt-4 list-disc list-inside space-y-2">
+                    {info.description.map(
+                      (description: string, key: number) => (
+                        <li
+                          key={key}
+                          className="text-sm text-muted-foreground ml-4"
+                        >
+                          {description}
+                        </li>
+                      )
+                    )}
+                  </ul>
+                </div>
               </Card>
             </motion.div>
           ))}
