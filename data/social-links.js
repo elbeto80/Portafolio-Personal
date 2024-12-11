@@ -9,13 +9,13 @@ export const socialLinks = {
   linkedin: {
     href: "https://www.linkedin.com/in/alberto-alonso-alvarez-8416351a3/",
     icon: Linkedin,
-    label: "LinkedIn"
+    label: "LinkedIn",
   },
   downloadCV: {
-    href: "/cv-alberto-alvarez.pdf",
+    href: "/CV_AlbertoAlvarez.pdf",
     icon: Download,
-    label: "Descargar CV"
-  }
+    label: "Descargar CV",
+  },
 };
 
 // Configuración específica para la sección About
@@ -32,4 +32,4 @@ export const aboutSocialButtons = [
     ...socialLinks.downloadCV,
     animation: "group-hover:animate-bounce",
   },
-]; 
+];
