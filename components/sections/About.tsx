@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
-import { aboutSocialButtons } from "@/data/social-links.js";
+import { socialLinks } from "@/data/social-links.js";
 
 export default function About() {
   const { t } = useTranslation();
@@ -48,7 +48,7 @@ export default function About() {
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center lg:justify-end pt-4">
-            {aboutSocialButtons.map((button) => {
+            {Object.values(socialLinks).map((button) => {
               const Icon = button.icon;
               return (
                 <motion.a
@@ -62,9 +62,16 @@ export default function About() {
                              text-primary rounded-full
                           `}
                 >
-                  <span className={`${button.animation}`}>
-                    <Icon className="w-5 h-4" />
-                  </span>
+                  {button.label == "Descargar CV" ? (
+                    <span className="group-hover:animate-bounce">
+                      <Icon className="w-5 h-5" />
+                    </span>
+                  ) : (
+                    <span className="group-hover:scale-125 transition-transform">
+                      <Icon className="w-5 h-5" />
+                    </span>
+                  )}
+
                   <span className="font-medium relative">{button.label}</span>
                 </motion.a>
               );

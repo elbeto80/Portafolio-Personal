@@ -17,19 +17,3 @@ export const socialLinks = {
     label: "Descargar CV",
   },
 };
-
-// Configuración específica para la sección About
-export const aboutSocialButtons = [
-  {
-    ...socialLinks.github,
-    animation: "group-hover:scale-125 transition-transform",
-  },
-  {
-    ...socialLinks.linkedin,
-    animation: "group-hover:scale-125 transition-transform",
-  },
-  {
-    ...socialLinks.downloadCV,
-    animation: "group-hover:animate-bounce",
-  },
-];

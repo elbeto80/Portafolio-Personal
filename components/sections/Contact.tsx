@@ -77,7 +77,7 @@ export default function Contact() {
                   className="w-full p-2 border rounded-md bg-background"
                 ></textarea>
               </div>
-              <Button className="w-full bg-orange-600 text-white">
+              <Button className="w-full bg-orange-500 hover:bg-orange-700/90 text-white">
                 <Mail className="h-4 w-4 mr-2" />
                 {t("contact.form.send")}
               </Button>

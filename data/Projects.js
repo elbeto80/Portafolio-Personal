@@ -11,7 +11,7 @@ export const projects_es = [
     title: "CRM System",
     description:
       "Sistema de gestión de clientes para una empresa de servicios de marketing masivo.",
-    technologies: "Laravel, PHP, Vue.js, Bootstrap, Bootstrap Vue y jQuery",
+    technologies: "Laravel, PHP, Vue.js, Bootstrap, Bootstrap Vue, jQuery",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
   },
