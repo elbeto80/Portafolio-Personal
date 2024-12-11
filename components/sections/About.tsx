@@ -15,7 +15,7 @@ export default function About() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
-        className="flex flex-col md:flex-row items-center gap-12 bg-secondary/30 rounded-2xl p-8 shadow-lg"
+        className="flex flex-col md:flex-row items-center gap-12 dark:bg-secondary/30 bg-secondary/70 rounded-2xl p-8 shadow-lg"
       >
         <div className="flex-1 text-center md:text-right space-y-6">
           <motion.span
@@ -63,7 +63,7 @@ export default function About() {
                           `}
                 >
                   <span className={`${button.animation}`}>
-                    <Icon className="w-5 h-5" />
+                    <Icon className="w-5 h-4" />
                   </span>
                   <span className="font-medium relative">{button.label}</span>
                 </motion.a>
