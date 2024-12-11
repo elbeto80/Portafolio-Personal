@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Phone, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { socialLinks } from "@/components/sections/data/social-links.js";
+import { socialLinks } from "@/data/social-links.js";
 
 export default function Contact() {
   const { t } = useTranslation();

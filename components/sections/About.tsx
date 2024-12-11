@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import Image from "next/image";
-import { aboutSocialButtons } from "@/components/sections/data/social-links.js";
+import { aboutSocialButtons } from "@/data/social-links.js";
 
 export default function About() {
   const { t } = useTranslation();

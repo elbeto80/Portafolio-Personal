@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 import { Github, Linkedin } from "lucide-react";
 import { useState } from "react";
 import ThemeSelector from "@/components/theme-selector";
-import { socialLinks } from "@/components/sections/data/social-links.js";
+import { socialLinks } from "@/data/social-links.js";
 
 const navItems = ["about", "experience", "projects", "skills", "contact"];
 

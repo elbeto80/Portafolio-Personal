@@ -4,16 +4,20 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
+import { projects_es, projects_en } from "@/data/Projects";
 
-const projectImages = {
-  1: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-  2: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-  3: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-  4: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
-};
+interface ProjectsData {
+  title: string;
+  description: string;
+  technologies: string;
+  image: string;
+}
 
 export default function Projects() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const projects: ProjectsData[] =
+    i18n.language == "es" ? projects_es : projects_en;
 
   return (
     <section id="projects" className="container mx-auto px-4 py-16 bg-muted/50">
@@ -27,34 +31,30 @@ export default function Projects() {
           {t("projects.title")}
         </h2>
         <div className="grid gap-6 md:grid-cols-3">
-          {[1, 2, 3, 4].map((i) => (
+          {projects.map((project, i) => (
             <Card key={i} className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src={projectImages[i as keyof typeof projectImages]}
-                  alt={t(`projects.list.${i}.title`)}
+                  src={project.image}
+                  alt={project.title}
                   fill
                   className="object-cover"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold">
-                  {t(`projects.list.${i}.title`)}
-                </h3>
+                <h3 className="text-xl font-semibold">{project.title}</h3>
                 <p className="mt-4 text-muted-foreground">
-                  {t(`projects.list.${i}.description`)}
+                  {project.description}
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2">
-                  {t(`projects.list.${i}.technologies`)
-                    .split(",")
-                    .map((tech) => (
-                      <span
-                        key={tech}
-                        className="bg-orange-500/90 px-2 py-1 rounded-md text-sm"
-                      >
-                        <small className="text-xs text-white">{tech}</small>
-                      </span>
-                    ))}
+                  {project.technologies.split(",").map((tech) => (
+                    <span
+                      key={tech}
+                      className="bg-orange-500/90 px-2 py-1 rounded-md text-sm"
+                    >
+                      <small className="text-xs text-white">{tech}</small>
+                    </span>
+                  ))}
                 </div>
               </div>
             </Card>

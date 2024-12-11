@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Card } from "@/components/ui/card";
-import { experience_es, experience_en } from "./../data/Experience";
+import { experience_es, experience_en } from "../../../data/Experience";
 
 interface ExperienceData {
   company: string;
