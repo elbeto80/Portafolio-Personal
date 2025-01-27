@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Presentación</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f7f7f7;
+        }
+
+        .card {
+            width: 350px;
+            height: 212px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+        }
+
+        .card-header {
+            background-color: #1e293b;
+            color: #ffffff;
+            padding: 14px;
+            text-align: center;
+        }
+
+        .card-header h1 {
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
+
+        .card-header p {
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        .card-body {
+            padding: 10px 16px 16px 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-body .info {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .card-body .qr {
+            text-align: center;
+        }
+
+        .card-body .qr img {
+            width: 120px;
+            height: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h1>Alberto Alonso Álvarez</h1>
+            <p>Desarrollador Full Stack | Desarrollador Móvil</p>
+        </div>
+        <div class="card-body">
+            <div class="info">
+                <p style="font-weight: 600;">🌐 www.albertoalvarez.dev</p>
+                <p>📧 info@albertoalvarez.dev</p>
+                <p>📞 (+57) 317 855 52 09</p>
+                <p>💼 linkedin.com/in/elbeto80</p>
+                <p>🖥️ github.com/elbeto80</p>
+            </div>
+            <div class="qr">
+                <img src="https://www.albertoalvarez.dev/qr-code.png" alt="Código QR">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
