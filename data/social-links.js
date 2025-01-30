@@ -7,7 +7,7 @@ export const socialLinks = {
     label: "GitHub",
   },
   linkedin: {
-    href: "https://www.linkedin.com/in/alberto-alonso-alvarez-8416351a3/",
+    href: "https://www.linkedin.com/in/elbeto80",
     icon: Linkedin,
     label: "LinkedIn",
   },
