@@ -6,8 +6,7 @@ export const projects_es = [
       "Plataforma que centraliza y automatiza la comunicación vía WhatsApp, ofreciendo herramientas como chatbots dinámicos y con inteligencia artificial, campañas de mensajería, segmentación de audiencia y más. Facilita la atención al cliente, impulsa las ventas y simplifica las comunicaciones.",
     technologies:
       "PHP, Laravel, Vue.js, Nuxt.js, MySQL, MongoDB, AWS, Vuetify, Whatsapp API, Pusher",
-    image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image: "project1.png",
   },
   {
     name: "wasapi-app",
@@ -84,8 +83,7 @@ export const projects_en = [
       "Platform that centralizes and automates communication via WhatsApp, offering tools like dynamic and AI-powered chatbots, messaging campaigns, audience segmentation, and more. It facilitates customer service, boosts sales, and simplifies communications.",
     technologies:
       "PHP, Laravel, Vue.js, Nuxt.js, MySQL, MongoDB, AWS, Vuetify, Whatsapp API, Pusher",
-    image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+    image: "project1.png",
   },
   {
     name: "wasapi-app",
