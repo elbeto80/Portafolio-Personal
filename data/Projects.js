@@ -15,7 +15,7 @@ export const projects_es = [
       "Aplicación móvil que centraliza y simplifica la comunicación vía WhatsApp. Permite visualizar y enviar mensajes, buscar y filtrar conversaciones, y gestionar chats. Ofrece soporte para mensajes multimedia y cuenta con modos claro y oscuro para una experiencia personalizada y accesible.",
     technologies: "React, React Native, Expo, React Native Paper, Firebase",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1611746872915-64382b5c76da?auto=format&fit=crop&q=80&w=800&h=400",
   },
   {
     name: "stars-crm",
@@ -24,7 +24,7 @@ export const projects_es = [
       "Una innovadora herramienta diseñada para gestionar de manera integral la comunicación entre una clínica y sus pacientes. Incluye funciones avanzadas como chat en tiempo real, gestión de contactos, administración de proveedores y comunicaciones integradas, ofreciendo una solución completa y eficiente.",
     technologies: "PHP, Laravel, Vue.js, Nuxt.js, MySQL, Vuetify",
     image:
-      "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
   },
   {
     name: "stars-app",
@@ -33,7 +33,7 @@ export const projects_es = [
       "Desarrollé una aplicación móvil para gestionar la comunicación entre una clínica y sus pacientes. La app incluye funcionalidades como chat en tiempo real, gestión de citas, recordatorios y acceso a información médica relevante, brindando una solución eficiente para facilitar la interacción.",
     technologies: "React, React Native, Expo, React Native Paper, Firebase",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
   },
   {
     name: "match-fit-app",
@@ -43,7 +43,7 @@ export const projects_es = [
     technologies:
       "React, React Native, Expo, React Native Paper, Firebase, Node.js, Express, AWS",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800&h=400",
   },
   {
     name: "metis-foundation",
@@ -52,7 +52,7 @@ export const projects_es = [
       "Plataforma innovadora diseñada para gestionar y optimizar los gastos de los grants. Permite asignar investigadores, generar y descargar informes detallados, y acceder a estadísticas avanzadas para un monitoreo eficiente y transparente del manejo de los recursos en todo momento.",
     technologies: "PHP, Laravel, Vue.js, Nuxt.js, MySQL, Vuetify, Quickbooks",
     image:
-      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800&h=400",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
   },
   {
     name: "master-2000",
@@ -61,8 +61,9 @@ export const projects_es = [
       "Software especializado en la gestión académica para instituciones educativas. Permite optimizar procesos administrativos y académicos mediante funcionalidades como la gestión de matrículas, control de notas y asistencia, comunicación entre docentes y estudiantes, y generación de reportes personalizados.",
     technologies: "PHP, Laravel, Vue.js, MySQL, SQL Server, Bootstrap, jQuery",
     image:
-      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800&h=400",
+      "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
+
   {
     name: "dominus-ingenieria",
     title: "Dominus - Ingeniería Apropiada",
@@ -71,7 +72,7 @@ export const projects_es = [
     technologies:
       "PHP, Laravel, React, Vue.js, MySQL, SQL Server, Bootstrap, jQuery",
     image:
-      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800&h=400",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
@@ -92,7 +93,7 @@ export const projects_en = [
       "Mobile application that centralizes and simplifies communication via WhatsApp. It allows users to view and send messages, search and filter conversations, and manage chats. It supports multimedia messages and includes light and dark modes for a personalized and accessible experience.",
     technologies: "React, React Native, Expo, React Native Paper, Firebase",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1611746872915-64382b5c76da?auto=format&fit=crop&q=80&w=800&h=400",
   },
   {
     name: "stars-crm",
@@ -101,7 +102,7 @@ export const projects_en = [
       "An innovative tool designed to comprehensively manage communication between a clinic and its patients. It includes advanced features like real-time chat, contact management, supplier administration, and integrated communications, offering a complete and efficient solution.",
     technologies: "PHP, Laravel, Vue.js, Nuxt.js, MySQL, Vuetify",
     image:
-      "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
   },
   {
     name: "stars-app",
@@ -110,7 +111,7 @@ export const projects_en = [
       "I developed a mobile application to manage communication between a clinic and its patients. The app includes features like real-time chat, appointment management, reminders, and access to relevant medical information, providing an efficient solution to facilitate interaction.",
     technologies: "React, React Native, Expo, React Native Paper, Firebase",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
   },
   {
     name: "match-fit-app",
@@ -120,7 +121,7 @@ export const projects_en = [
     technologies:
       "React, React Native, Expo, React Native Paper, Firebase, Node.js, Express, AWS",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800&h=400",
   },
   {
     name: "metis-foundation",
@@ -129,7 +130,7 @@ export const projects_en = [
       "Innovative platform designed to manage and optimize grant expenses. It allows assigning researchers, generating and downloading detailed reports, and accessing advanced statistics for efficient and transparent resource management at all times.",
     technologies: "PHP, Laravel, Vue.js, Nuxt.js, MySQL, Vuetify, Quickbooks",
     image:
-      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800&h=400",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
   },
   {
     name: "master-2000",
@@ -138,7 +139,7 @@ export const projects_en = [
       "Software specialized in academic management for educational institutions. It optimizes administrative and academic processes through features like enrollment management, grade and attendance tracking, teacher-student communication, and personalized report generation.",
     technologies: "PHP, Laravel, Vue.js, MySQL, SQL Server, Bootstrap, jQuery",
     image:
-      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800&h=400",
+      "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
     name: "dominus-ingenieria",
@@ -148,7 +149,7 @@ export const projects_en = [
     technologies:
       "PHP, Laravel, React, Vue.js, MySQL, SQL Server, Bootstrap, jQuery",
     image:
-      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=800&h=400",
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
 
