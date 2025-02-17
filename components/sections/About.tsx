@@ -92,7 +92,7 @@ export default function About() {
           >
             <div className="absolute inset-0 transition-all duration-400 z-10" />
             <Image
-              src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              src="./yo.png"
               alt="Alberto Alvarez"
               fill
               className="object-cover "
