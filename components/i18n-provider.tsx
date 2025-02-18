@@ -82,6 +82,13 @@ const resources = {
           socialProfiles: "Perfiles Sociales",
           location: "Medellín, Colombia",
           phone: "(+57) 317 855 52 09",
+
+          success: "Mensaje enviado",
+          successMessage: "Tu mensaje ha sido enviado correctamente.",
+          error: "Error",
+          errorMessage:
+            "Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.",
+          sending: "Enviando...",
         },
       },
       nav: {
@@ -177,6 +184,13 @@ const resources = {
           socialProfiles: "Social Profiles",
           location: "Medellín, Colombia",
           phone: "(+57) 317 855 52 09",
+
+          success: "Message sent",
+          successMessage: "Your message has been sent successfully.",
+          error: "Error",
+          errorMessage:
+            "There was an error sending the message. Please try again.",
+          sending: "Sending...",
         },
       },
       nav: {
