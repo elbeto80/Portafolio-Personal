@@ -168,8 +168,8 @@ export default function Contact() {
               <div className="space-y-3">
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 mr-3" />
-                  <a href="mailto:contact@albertoalvarez.dev">
-                    contact@albertoalvarez.dev
+                  <a href="mailto:info@albertoalvarez.dev">
+                    info@albertoalvarez.dev
                   </a>
                 </div>
                 <div className="flex items-center">
