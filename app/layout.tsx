@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Alberto Alvarez - Full Stack Developer",
   description:
-    "Portfolio de Alberto Alvarez - Desarrollador Full Stack con 8 años de experiencia",
+    "Portfolio de Alberto Alvarez - Desarrollador Full Stack con 10 años de experiencia",
   icons: {
     icon: "/favicon.ico",
   },
