@@ -2,7 +2,7 @@ export const experience_es = [
   {
     company: "Vinix Code S.A.S.",
     title: "Senior Full Stack Developer",
-    period: "2020 - Presente",
+    period: "2020 - 2025",
     description: [
       "Implemento aplicaciones web escalables y robustas utilizando tecnologías como JavaScript, PHP, MySQL, y frameworks como Vue.js, React, Laravel, Nuxt.js, Next.js y Vuetify.",
       "Desarrollo aplicaciones móviles híbridas empleando React Native, y su publicación en Google Play Store y App Store.",
@@ -75,7 +75,7 @@ export const experience_en = [
   {
     company: "Vinix Code S.A.S.",
     title: "Senior Full Stack Developer",
-    period: "2020 - Present",
+    period: "2020 - 2025",
     description: [
       "Developing scalable and robust web applications using technologies such as JavaScript, PHP, MySQL, and frameworks like Vue.js, React, Laravel, Nuxt.js, Next.js, and Vuetify.",
       "Building hybrid mobile applications with React Native, published on Google Play Store and App Store.",
