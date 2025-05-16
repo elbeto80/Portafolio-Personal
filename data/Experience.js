@@ -4,10 +4,10 @@ export const experience_es = [
     title: "Senior Full Stack Developer",
     period: "2020 - 2025",
     description: [
-      "Implemento aplicaciones web escalables y robustas utilizando tecnologías como JavaScript, PHP, MySQL, y frameworks como Vue.js, React, Laravel, Nuxt.js, Next.js y Vuetify.",
-      "Desarrollo aplicaciones móviles híbridas empleando React Native, y su publicación en Google Play Store y App Store.",
-      "Participo en proyectos desde el análisis inicial hasta la entrega del producto final, con más de 10 proyectos completados.",
-      "Colaboro en equipos Scrum bajo metodologías ágiles, fomentando entregas eficientes y de alta calidad.",
+      "Implementación de aplicaciones web escalables y robustas utilizando tecnologías como JavaScript, PHP, MySQL, y frameworks como Vue.js, React, Laravel, Nuxt.js, Next.js y Vuetify.",
+      "Desarrollo de aplicaciones móviles híbridas empleando React Native, y su publicación en Google Play Store y App Store.",
+      "Participación en proyectos desde el análisis inicial hasta la entrega del producto final, con más de 10 proyectos completados.",
+      "Colaboración en equipos Scrum bajo metodologías ágiles, fomentando entregas eficientes y de alta calidad.",
     ],
   },
   {
@@ -15,9 +15,9 @@ export const experience_es = [
     title: "Full Stack Developer",
     period: "2019 - 2020",
     description: [
-      "Trabajé en el desarrollo, mejoras y mantenimiento de software académico para la gestión de entidades educativas y la administración de bibliotecas.",
-      "Creé tanto el backend como el frontend utilizando tecnologías como Laravel, PHP, Vue.js, Bootstrap, Bootstrap Vue y jQuery.",
-      "Gestioné y optimicé bases de datos con SQL Server, garantizando rendimiento y fiabilidad.",
+      "Desarrollo, mejoras y mantenimiento de software académico para la gestión de entidades educativas y la administración de bibliotecas.",
+      "Creación de backend y frontend utilizando tecnologías como Laravel, PHP, Vue.js, Bootstrap, Bootstrap Vue y jQuery.",
+      "Gestión y optimización de bases de datos con SQL Server, garantizando rendimiento y fiabilidad.",
     ],
   },
   {
@@ -77,7 +77,7 @@ export const experience_en = [
     title: "Senior Full Stack Developer",
     period: "2020 - 2025",
     description: [
-      "Developing scalable and robust web applications using technologies such as JavaScript, PHP, MySQL, and frameworks like Vue.js, React, Laravel, Nuxt.js, Next.js, and Vuetify.",
+      "Development of scalable and robust web applications using technologies such as JavaScript, PHP, MySQL, and frameworks like Vue.js, React, Laravel, Nuxt.js, Next.js, and Vuetify.",
       "Building hybrid mobile applications with React Native, published on Google Play Store and App Store.",
       "Participating in projects from initial analysis to final delivery, with more than 10 projects completed.",
       "Collaborating in Scrum teams under agile methodologies, fostering efficient and high-quality deliveries.",
@@ -88,9 +88,9 @@ export const experience_en = [
     title: "Full Stack Developer",
     period: "2019 - 2020",
     description: [
-      "Worked on the development, enhancement, and maintenance of academic software for managing educational institutions and library administration.",
-      "Created both backend and frontend using technologies such as Laravel, PHP, Vue.js, Bootstrap, Bootstrap Vue, and jQuery.",
-      "Managed and optimized databases with SQL Server, ensuring performance and reliability.",
+      "Development, enhancement, and maintenance of academic software for managing educational institutions and library administration.",
+      "Creation of both backend and frontend using technologies such as Laravel, PHP, Vue.js, Bootstrap, Bootstrap Vue, and jQuery.",
+      "Management and optimization of databases with SQL Server, ensuring performance and reliability.",
     ],
   },
   {
