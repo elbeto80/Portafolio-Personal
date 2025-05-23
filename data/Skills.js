@@ -23,11 +23,11 @@ export const skills = {
     { name: "MongoDB", level: 40 },
   ],
   tools: [
-    { name: "Git", level: 80 },
     { name: "Linux", level: 85 },
+    { name: "Git", level: 80 },
     { name: "JWT", level: 75 },
+    { name: "CI/CD", level: 55 },
     { name: "AWS", level: 50 },
-    { name: "CI/CD", level: 45 },
     { name: "Docker", level: 40 },
   ],
 };
