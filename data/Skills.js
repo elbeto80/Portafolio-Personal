@@ -24,10 +24,10 @@ export const skills = {
   ],
   tools: [
     { name: "Linux", level: 85 },
-    { name: "Git", level: 80 },
+    { name: "Git", level: 85 },
     { name: "JWT", level: 75 },
     { name: "CI/CD", level: 55 },
     { name: "AWS", level: 50 },
-    { name: "Docker", level: 40 },
+    { name: "Docker", level: 50 },
   ],
 };
