@@ -1,5 +1,14 @@
 export const projects_es = [
   {
+    name: "wansy",
+    title: "Wansy - Proyecto personal",
+    description:
+      "Plataforma SaaS que centraliza la atención al cliente mediante la API oficial de WhatsApp. Permite gestionar múltiples líneas, conversaciones en tiempo real y contactos, con respuestas automáticas mediante inteligencia artificial y una base de conocimiento propia, además de transferir la atención a agentes humanos.",
+    technologies:
+      "PHP, Laravel, React, TypeScript, Tailwind CSS, Redux Toolkit, PostgreSQL, Redis, Laravel Reverb, WhatsApp API",
+    image: "/image.png",
+  },
+  {
     name: "wasapi",
     title: "Wasapi",
     description:
@@ -78,6 +87,15 @@ export const projects_es = [
 
 export const projects_en = [
   {
+    name: "wansy",
+    title: "Wansy - Personal Project",
+    description:
+      "SaaS platform that centralizes customer support through the official WhatsApp API. It manages multiple lines, real-time conversations, and contacts, with AI-powered automated replies backed by a custom knowledge base and the ability to hand conversations over to human agents.",
+    technologies:
+      "PHP, Laravel, React, TypeScript, Tailwind CSS, Redux Toolkit, PostgreSQL, pgvector, Redis, Laravel Reverb, WhatsApp API",
+    image: "/image.png",
+  },
+  {
     name: "wasapi",
     title: "Wasapi",
     description:
@@ -154,6 +172,12 @@ export const projects_en = [
 ];
 
 export const projects_link = {
+  wansy: [
+    {
+      link: "https://wansy.app",
+      icon: "web",
+    },
+  ],
   wasapi: [
     {
       link: "https://wasapi.io",

@@ -1,5 +1,15 @@
 export const experience_es = [
   {
+    company: "Fibrazo ",
+    title: "Senior Full Stack Developer",
+    period: "2026 - Presente",
+    description: [
+      "Desarrollo de aplicaciones web y móviles utilizando tecnologías como JavaScript, PHP, PostgreSQL, React, Laravel, Next.js.",
+      "Colaboración en equipos Scrum bajo metodologías ágiles, fomentando entregas eficientes y de alta calidad.",
+      "Participación en proyectos desde el análisis inicial hasta la entrega del producto final.",
+    ],
+  },
+  {
     company: "Vinix Code S.A.S.",
     title: "Senior Full Stack Developer",
     period: "2020 - 2025",
