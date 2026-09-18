@@ -311,7 +311,6 @@ const resources = {
       footer: {
         text: "All rights reserved.",
         backToTop: "Back to top",
-        built: "Built with Next.js, TypeScript, and Tailwind CSS.",
       },
       theme: {
         light: "Light",

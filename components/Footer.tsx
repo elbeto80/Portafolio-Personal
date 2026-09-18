@@ -20,9 +20,6 @@ export default function Footer() {
           <p className="font-mono text-[12.5px] text-ink-faint">
             © {year} Alberto Alvarez. {t("footer.text")}
           </p>
-          <p className="mt-1 font-mono text-[11px] text-ink-faint/70">
-            {t("footer.built")}
-          </p>
         </div>
 
         <nav className="flex flex-wrap items-center gap-x-6 gap-y-2 lg:ml-auto">
