@@ -1,105 +1,143 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { useTranslation } from "react-i18next";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
+import { Download, Github, Linkedin } from "lucide-react";
+import { Reveal } from "@/components/reveal";
 import { socialLinks } from "@/data/social-links.js";
 
 export default function About() {
   const { t } = useTranslation();
 
   return (
-    <section id="about" className="container mx-auto px-4 pt-24 mb-12">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.8 }}
-        className="flex flex-col lg:flex-row items-center gap-12 dark:bg-secondary/30 bg-secondary/70 rounded-2xl p-8 shadow-lg"
-      >
-        <div className="flex-1 text-center lg:text-right space-y-6">
-          <motion.span
-            initial={{ scale: 0.5 }}
-            animate={{ scale: 1 }}
-            className="inline-block text-2xl font-bold bg-primary/10 text-primary px-4 py-2 rounded-full lg:hidden"
-          >
-            {"<Alberto Alvarez />"}
-          </motion.span>
+    <section
+      id="about"
+      className="relative overflow-hidden border-b border-line scroll-mt-20"
+    >
+      <div
+        aria-hidden="true"
+        className="tech-grid pointer-events-none absolute inset-0 [mask-image:radial-gradient(900px_620px_at_24%_8%,#000_0%,transparent_76%)]"
+      />
 
-          <p className="text-xl text-muted-foreground leading-relaxed">
-            {t("about.description1")}
-          </p>
+      <div className="relative mx-auto max-w-[1440px] px-5 py-20 md:px-10 md:py-24 xl:px-[120px]">
+        <div className="flex flex-col gap-12 lg:flex-row lg:items-start lg:gap-16">
+          {/* Retrato */}
+          <Reveal className="mx-auto w-full max-w-[380px] shrink-0 lg:mx-0">
+            <div className="rounded-[18px] border border-line-strong bg-surface p-3.5 shadow-[0_30px_70px_-40px_rgba(0,0,0,0.9)]">
+              <div className="overflow-hidden rounded-xl bg-surface-sunken">
+                <Image
+                  src="/yo.png"
+                  alt="Alberto Alvarez"
+                  width={542}
+                  height={618}
+                  priority
+                  className="h-[400px] w-full object-cover object-top"
+                />
+              </div>
+              <div className="mt-3.5 flex items-center justify-between px-1 pb-0.5">
+                <span className="font-mono text-[11.5px] text-ink">
+                  alberto_alvarez.png
+                </span>
+                <span className="inline-flex items-center gap-[7px] font-mono text-[11px] text-ink-faint">
+                  <span className="h-[5px] w-[5px] rounded-full bg-amber" />
+                  Medellín, CO
+                </span>
+              </div>
+            </div>
 
-          <motion.h2
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="text-5xl font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent"
-          >
-            {t("about.title")}
-          </motion.h2>
+            <div className="mt-[18px] rounded-xl border border-line bg-surface-sunken px-[18px] py-4 font-mono text-xs leading-[1.9]">
+              <div className="text-ink-faint">
+                <span className="text-teal">$</span> whoami
+              </div>
+              <div className="text-ink">alberto · senior full stack dev</div>
+              <div className="mt-1.5 text-ink-faint">
+                <span className="text-teal">$</span> uptime
+              </div>
+              <div className="text-ink">
+                12+ {t("hero.stats.years")}{" "}
+                <span className="inline-block h-3.5 w-[7px] animate-blink bg-azure align-[-2px]" />
+              </div>
+            </div>
+          </Reveal>
 
-          <p className="text-lg text-muted-foreground">
-            {t("about.description2")}
-          </p>
+          {/* Texto */}
+          <Reveal delay={0.06} className="min-w-0 flex-1">
+            <div className="flex items-center gap-2.5 font-mono text-[11.5px] uppercase tracking-[0.1em] text-ink-faint">
+              <span className="text-azure">01</span>
+              <span className="h-px w-4 bg-line-strong" aria-hidden="true" />
+              {t("about.eyebrow")}
+            </div>
 
-          <p className="text-lg text-muted-foreground">
-            {t("about.description3")}
-          </p>
+            <p className="mt-5 font-display text-[clamp(1.25rem,3vw,1.5625rem)] font-medium tracking-[-0.02em] text-ink">
+              {t("about.description1")}
+            </p>
 
-          <div className="flex flex-wrap gap-4 justify-center lg:justify-end pt-4">
-            {Object.values(socialLinks).map((button) => {
-              const Icon = button.icon;
-              return (
-                <motion.a
-                  key={button.label}
-                  href={button.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  viewport={{ once: true }}
-                  className={`group inline-flex items-center gap-2 px-4 py-2 
-                             border border-orange-500/50
-                             text-primary rounded-full
-                          `}
+            <h2 className="mt-3.5 font-display text-[clamp(1.9rem,4.4vw,2.75rem)] font-semibold leading-[1.05] tracking-[-0.03em] text-ink">
+              {t("about.title")}
+            </h2>
+
+            <p className="mt-6 max-w-[700px] text-[16.5px] leading-[1.72] text-ink-muted">
+              {t("about.description2")}
+            </p>
+
+            <p className="mt-[18px] max-w-[700px] text-[16.5px] leading-[1.72] text-ink-muted">
+              {t("about.description3")}
+            </p>
+
+            <dl className="mt-7 grid gap-3 sm:grid-cols-3">
+              {(
+                [
+                  ["focusLabel", "focus"],
+                  ["methodLabel", "method"],
+                  ["scopeLabel", "scope"],
+                ] as const
+              ).map(([labelKey, valueKey]) => (
+                <div
+                  key={labelKey}
+                  className="rounded-xl border border-line bg-surface px-[18px] py-4"
                 >
-                  {button.label == "Descargar CV" ? (
-                    <span className="group-hover:animate-bounce">
-                      <Icon className="w-5 h-5" />
-                    </span>
-                  ) : (
-                    <span className="group-hover:scale-125 transition-transform">
-                      <Icon className="w-5 h-5" />
-                    </span>
-                  )}
+                  <dt className="font-mono text-[10px] uppercase tracking-[0.12em] text-ink-faint">
+                    {t(`about.facts.${labelKey}`)}
+                  </dt>
+                  <dd className="mt-[7px] text-sm text-ink">
+                    {t(`about.facts.${valueKey}`)}
+                  </dd>
+                </div>
+              ))}
+            </dl>
 
-                  <span className="font-medium relative">{button.label}</span>
-                </motion.a>
-              );
-            })}
-          </div>
+            <div className="mt-7 flex flex-wrap gap-3">
+              <a
+                href={socialLinks.github.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex h-[46px] items-center gap-2.5 rounded-[11px] border border-line-strong bg-surface px-[18px] text-[14.5px] font-medium text-ink transition-all duration-200 ease-smooth hover:-translate-y-0.5 hover:bg-surface-hover"
+              >
+                <Github className="h-[17px] w-[17px]" />
+                GitHub
+              </a>
+              <a
+                href={socialLinks.linkedin.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex h-[46px] items-center gap-2.5 rounded-[11px] border border-line-strong bg-surface px-[18px] text-[14.5px] font-medium text-ink transition-all duration-200 ease-smooth hover:-translate-y-0.5 hover:bg-surface-hover"
+              >
+                <Linkedin className="h-[17px] w-[17px]" />
+                LinkedIn
+              </a>
+              <a
+                href={socialLinks.downloadCV.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex h-[46px] items-center gap-2.5 rounded-[11px] border border-azure/40 bg-azure/10 px-[18px] text-[14.5px] font-medium text-azure transition-all duration-200 ease-smooth hover:-translate-y-0.5 hover:bg-azure/15"
+              >
+                <Download className="h-[17px] w-[17px] transition-transform duration-300 group-hover:translate-y-0.5" />
+                {t("about.socialButtons.downloadCV")}
+              </a>
+            </div>
+          </Reveal>
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="flex-1 flex justify-center"
-        >
-          <div
-            className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary group 
-                        transition-all duration-400 hover:scale-105 hover:shadow-lg hover:shadow-primary/20"
-          >
-            <div className="absolute inset-0 transition-all duration-400 z-10" />
-            <Image
-              src="./yo.png"
-              alt="Alberto Alvarez"
-              fill
-              className="object-cover "
-            />
-          </div>
-        </motion.div>
-      </motion.div>
+      </div>
     </section>
   );
 }
